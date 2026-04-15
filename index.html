@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RAISE | Educational Platform</title>
+    <link rel="shortcut icon" type="png" href="assets/img/icon/favicon.png">
+    <title>RAISE - Educational Platform</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Core JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body data-theme="light">
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="glass">
+        <div class="logo">
+            <img src="assets/img/icon/raise_logo.png" alt="RAISE Logo">
+        </div>
+        <ul id="nav-links">
+            <li><a class="active" href="#header">Home</a></li>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#subjects_section">Subjects</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a class="get-started" href="login.html">Get Started</a>
+            <div class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="header">
+        <div class="container head-container">
+            <div class="quote reveal">
+                <p>The beautiful thing about learning is that nobody can take it away from you</p>
+                <h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits.</h5>
+                <div class="play">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <span><a href="#" target="_blank">Watch Now</a></span>
+                </div>
+            </div>
+            <div class="svg-image reveal">
+                <img src="assets/img/extra/svg1.jpg" alt="Learning illustration">
+            </div>
+        </div>
+    </header>
+
+    <!-- Popular Subjects -->
+    <section class="section-padding subjects" id="subjects_section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Popular Subjects on RAISE</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="course-grid">
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/book.png" alt="JEE">
+                    <h3>JEE Preparation</h3>
+                    <a href="subjects/jee.html" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/d1.png" alt="GATE">
+                    <h3>GATE Preparation</h3>
+                    <a href="subjects/gate.html" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/paper.png" alt="Papers">
+                    <h3>Sample Papers</h3>
+                    <a href="subjects/jee.html#sample_papers" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/d1.png" alt="Quiz">
+                    <h3>Daily Quiz</h3>
+                    <a href="subjects/quiz.html" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/computer.png" alt="Computer">
+                    <h3>Computer Courses</h3>
+                    <a href="subjects/computer_courses.html" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/data.png" alt="DSA">
+                    <h3>Data Structures</h3>
+                    <a href="subjects/computer_courses.html#data" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/algo.png" alt="Algorithms">
+                    <h3>Algorithms</h3>
+                    <a href="subjects/computer_courses.html#algo" class="link-btn">Learn More</a>
+                </div>
+                <div class="course-card reveal">
+                    <img src="assets/img/courses/projects.png" alt="Projects">
+                    <h3>Projects</h3>
+                    <a href="subjects/computer_courses.html#projects" class="link-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding" id="about_section">
+        <div class="container about">
+            <div class="about-img reveal">
+                <img src="assets/img/extra/e3.jpg" alt="About RAISE">
+            </div>
+            <div class="about-text reveal">
+                <h2>Empowering Students Worldwide</h2>
+                <p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Our platform acts as a bridge between curiosity and knowledge.</p>
+                <p>Using modern web technologies, we make learning more accessible, entertaining, and attractive to students in today's digital age.</p>
+                <a href="#" class="get-started" style="display:inline-block">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item reveal">
+                <h3 class="counter" data-target="154">0</h3>
+                <p>Enrolled Students</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="counter" data-target="62">0</h3>
+                <p>Total Courses</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="counter" data-target="56">0</h3>
+                <p>Placed Students</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="counter" data-target="27">0</h3>
+                <p>Total Projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creators Section -->
+    <section class="section-padding" id="team_section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Meet the Creators</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="course-grid" style="justify-content: center;">
+                <div class="course-card reveal" style="max-width: 400px; margin: 0 auto;">
+                    <img src="assets/img/creator/ro.jpeg" alt="Creator" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover;">
+                    <h3>Nishant Kumar</h3>
+                    <p style="font-style: italic; margin-bottom: 20px;">"You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives."</p>
+                    <div class="social-links" style="justify-content: center;">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-padding subjects" id="services_section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i class="fas fa-laptop-code" style="font-size: 30px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Free Computer Courses</h3>
+                    <p>Access high-quality coding tutorials and courses for free.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-brain" style="font-size: 30px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Competitive Exams</h3>
+                    <p>Build strong concepts for JEE, GATE and other competitive exams.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-video" style="font-size: 30px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Online Lectures</h3>
+                    <p>Interactive video lectures from top tutors and mentors.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-file-alt" style="font-size: 30px; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Sample Papers</h3>
+                    <p>Practice with real exam papers and detailed solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding" id="review_section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Student Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="reviews-scroll">
+                <div class="review-card reveal">
+                    <div class="review-header">
+                        <img src="assets/img/creator/humanNotExist1.jpg" alt="Sophie Daniel">
+                        <div>
+                            <h4>Sophie Daniel</h4>
+                            <p>Java Fullstack</p>
+                        </div>
+                    </div>
+                    <p>"The Java Fundamental course was a great experience. The assignments and challenges were really helpful..."</p>
+                </div>
+                <div class="review-card reveal">
+                    <div class="review-header">
+                        <img src="assets/img/creator/humanNotExist2.jpg" alt="Clayton Clair">
+                        <div>
+                            <h4>Clayton Clair</h4>
+                            <p>C++ Advanced</p>
+                        </div>
+                    </div>
+                    <p>"Arnav Bhaiya gives coding life lessons which will guide you throughout your tech career..."</p>
+                </div>
+                <div class="review-card reveal">
+                    <div class="review-header">
+                        <img src="assets/img/creator/humanNotExist3.jpg" alt="Devyn Sethi">
+                        <div>
+                            <h4>Devyn Sethi</h4>
+                            <p>JEE Participant</p>
+                        </div>
+                    </div>
+                    <p>"RAISE helped me think through problems in a much more analytical manner. Highly recommended!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding container reveal" id="contactus_section">
+        <div class="contact-section">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Have questions? We're here to help you 24/7.</p>
+                <div style="margin-top: 40px;">
+                    <p><i class="fas fa-map-marker-alt" style="margin-right: 15px;"></i> Haldwani</p>
+                    <p><i class="fas fa-phone" style="margin-right: 15px;"></i> +91 9876543210</p>
+                    <p><i class="fas fa-envelope" style="margin-right: 15px;"></i> nishant123@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="4" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-logo">
+                    <img src="assets/img/icon/raise_logo.png" alt="Logo">
+                    <p>Empowering the next generation of learners through technology and quality education.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about_section">About Us</a></li>
+                        <li><a href="#subjects_section">Our Courses</a></li>
+                        <li><a href="#services_section">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Newsletter</h4>
+                    <p>Get latest updates and course news.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 RAISE. All Rights Reserved. Created By Nishant Kumar</p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
